@@ -1,42 +1,47 @@
 # Robot Builders Night Virtual for February 22nd, 2025
 
 ## Introduction
-The meeting commenced with various discussion topics related to the Dallas Personal Robotics Group (DPRG), covering election results, upcoming events, and technical tutorials, predominantly focusing on the use of KiCad for PCB design in robotics.
+The virtual gathering of the Dallas Personal Robotics Group (DPRG) took place on February 22nd, 2025. The meeting focused on project-based learning around robotics and electronics design using KiCad, a free software suite for electronic design automation (EDA).
 
-## Main Discussion Points
+## Key Discussion Points
 
-### Election and Announcements
-- Paul Bouchier welcomed participants and discussed the results of a special election to fill board roles.
-- Eric was elected to a new officer position, and Mark joined the board replacing Carl Aught as vice president.
+### Election of New Officers
+- A new officer position was filled by Eric, replacing the librarian role and another board position previously held by Carl Aught, now succeeded by Mark.
+- Ron Grant supervised the online voting process, with 16 votes received.
 
-### Upcoming Events and Projects
-- Announced upcoming DPRG events including a robot run coinciding with the Dallas Maker Space open house in April.
-- Discussion on reassembling the robot 'Robbie' for displays and exhibitions. Plans to document the assembly and create a protective storage solution.
+### Upcoming Events
+- Events planned include:
+  - A presentation on Lino Robot 2 software stack by Paul in March.
+  - An April robot run at Dallas Maker Space's open house, featuring a robot course setup.
+  - Plans to restore and display the robotic entity "Robbie" at upcoming events like Moon Day.
 
 ### KiCad for Robot Design
-- Doug Parody conducted an in-depth tutorial on using KiCad for PCB design, covering topics like schematic setup, net classes, and the integration of various modules and components.
-- Instructions given on assigning pin types and using the symbol editor to create custom symbols for missing components.
+- Paul Bouchier and Doug Parody led a practical session on using KiCad for designing robot motherboards.
+- Topics covered included:
+  - Schematic setup, net class creation, and how to adjust graphical properties.
+  - Utilizing KiCad for creating and assigning footprints and symbols.
+  - Differences in net classes and trace widths for power and signal routing on PCBs.
 
-### Practical Implementation
-- The meeting included a practical walkthrough of setting up KiCad projects, such as creating and organizing directories and using plugins for simplified PCB layout design.
-- Demonstration of using auto-routing tools to design efficient PCBs in KiCad, with discussions on net classes and their importance in electronics design.
-- Issues and troubleshooting specific to KiCad toolkit were addressed, offering solutions and workarounds for known bugs.
+### Technical Challenges and Solutions
+- Doug discussed the transition issues from KiCad version 6 to 7 and later versions.
+- Several tips for using advanced KiCad features:
+  - Flavoring schematic designs with color-coding and adjusting design rules for PCBs.
+  - Understanding layout constraints for different components.
+  - Troubleshooting common errors such as unassigned power flags and extra no-connect (NC) labels.
 
-### DFM (Design for Manufacturability) Verification
-- Participants reviewed the use of Gerber viewers to examine board designs prior to manufacturing.
-- Key insights into ensuring design accuracy were shared, including the necessity of proper silkscreen marking and alignment checks.
+### Hands-on Exercises
+- Participants engaged in exercises creating and modifying project files, configuring KiCad schemas, and generating Gerber files for PCB production.
+- Emphasis was placed on the importance of verifying designs through exported files and visual tools like Gerber viewers.
 
 ## Conclusions and Insights
-- The session illustrated the robustness and complexity of KiCad as a tool for electronic design in robotics, emphasizing hands-on learning through practical exercises.
-- The collaborative setting fostered knowledge sharing on advanced topics such as custom symbol creation and module integration.
+- KiCad is a powerful tool for custom PCB design but requires careful attention to version changes and community updates for optimal usage.
+- Collaborative design sessions enhance learning and allow for shared problem-solving among robotics enthusiasts.
 
-## Referenced Links and Contributors
-- **Paul Bouchier** facilitated the meeting and shared essential updates.
-- **Doug Parody** provided comprehensive insights into KiCad usage and design strategies.
-- **Ray Casler** contributed to clarifying technical questions and solutions during the session.
+## Referenced Links
+- [DPRG Homepage and Project Files](https://dprg.org)
+- Additional resources were provided for navigating KiCad's functionalities, accessible through the DPRG website under meeting notes and shared files (`projects 1 & 3` links).
 
-For more information, participants were directed to visit the DPRG website to access project files and further resources about upcoming meetings and events.
-
----
-
-Please note, certain assumptions have been applied in summarizing the material given the transcription inaccuracies and missing dialogue distinctions.
+## Contributors
+- Paul Bouchier - Led the meeting and technical sessions on KiCad.
+- Doug Parody - Provided insights and guidance on PCB layout design.
+- Ray Casler - Contributed questions and helped troubleshoot design challenges.
