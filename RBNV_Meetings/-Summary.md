@@ -1,38 +1,36 @@
-# Robot Builders Night Virtual for March 4th, 2025
+# Robot Builders Night Virtual for February 22nd, 2025
 
 ## Introduction
-The latest session of the Dallas Personal Robotics Group's (DPRG) Robot Builders Night Virtual focused on the intricacies of using KiCad for designing PCBs for robotics. Led by Paul Bouchier, the group navigated through setting up a project in KiCad, creating custom libraries, assigning net classes, and preparing for PCB fabrication.
+The latest virtual meetup for the Dallas Personal Robotics Group (DPRG) was held on February 22nd, 2025. Paul Bouchier and other members discussed various topics ranging from election updates, upcoming events, and in-depth demonstrations on using KiCad for creating PCBs relevant to robotics projects. This is an overview of the main discussion points and insights shared during the meeting.
 
-## Key Discussion Points
+## Main Discussion Points
 
-### Initial Setup and Project Organizing
-- Paul Bouchier guided participants through the setup of a KiCad project for a hypothetical robot PCB design.
-- Emphasis was placed on creating organized directories for components, footprints, symbols, and 3D models.
-
-### Creating Custom Libraries and Symbols
-- Attendees learned how to create custom libraries in KiCad for project-specific components.
-- The process for setting up symbols for components that do not exist in the standard KiCad libraries was demonstrated.
-
-### PCB Layout and Design
-- Detailed instructions were provided on how to layout components on a PCB, taking into consideration signal clarity and minimizing interference.
-- The group explored the use of net classes to define trace widths and other properties.
-
-### Auto-routing and Manual Adjustments
-- The benefits of using auto-routing features in KiCad were highlighted, although manual adjustments were still necessary to ensure optimal routing.
-- Discussions included troubleshooting common issues such as isolated ground planes and spacing violations.
-
-### Preparing for Fabrication
-- Instructions on generating Gerber files for manufacturing were given, along with a tour of the JLPCB website for ordering fabricated PCBs.
-- The use of Gerber viewers for error checking and design verification was also covered.
+### 1. DPRG Elections and Updates
+- **Election of New Officers:** The group conducted a special election to fill positions on the board. Eric was elected to a new officer position, and Mark was welcomed as the new vice president, succeeding Carl Aught.
+- **Upcoming Workshops and Events:** Attendees discussed plans for future events, including a run in April for the Dallas Maker Space open house, and ongoing projects like Roby the Robot to be showcased at upcoming expos.
+  
+### 2. KiCad Tutorials for Robot Design
+- **Using KiCad:** Doug provided an extensive tutorial on using KiCad for PCB design tailored for robotic applications. 
+  - The session covered schematic setups, creating net classes, and assigning footprints.
+  - Participants were given hands-on practice in creating and adjusting schematic characteristics for their projects.
+- **Practical Applications:** Discussions included practical advice on footprint library creation, routing, and adjustments specific to the needs of modular robotics hardware.
+  
+### 3. Technical Setup and Prototypes
+- **Hardware Organization:** Emphasis was placed on how to organize layouts on PCBs to reduce noise and improve the efficiency of power distribution across the board.
+- **Custom Footprints:** The necessity of creating custom footprints for specific modules that are not available in default libraries was highlighted.
+  
+### 4. Troubleshooting and Adjustments
+- **Troubleshooting in KiCad:** The session incorporated fixes and identification of errors like missing connections and adjusting errors from design rules.
+- **Using Auto Routers:** Leverage of tools like FreeRouting demonstrated improvements in efficiency of board designs.
 
 ## Conclusions and Insights
-- KiCad proves to be a versatile tool for PCB design in robotics, capable of handling complex layouts and custom components.
-- Proper organization and methodical setup are crucial for successfully using KiCad, especially for projects with unique components.
-- Attendees now have a solid foundation to explore further PCB design ventures with a better understanding of how to utilize KiCad effectively.
+- Participants gained a deep dive into the practical aspects of using KiCad for robotic PCB development. 
+- The necessity for precise schematic and net class setup to avoid future complications in assembly or functionality was reinforced.
+- Upcoming events promise to extend practical applications showcased at the meeting, aiming especially at hands-on community contribution and demonstrations.
 
 ## Referenced Links
-- Participants are encouraged to download projects 1 & 3 from the DPRG website for practice: [Projects 1 & 3 on DPRG](https://www.dprg.org)
-- Additional useful resources include tutorials and documentation found on the [KiCad website](https://kicad.org).
+- [Dallas Personal Robotics Group Official Site](https://www.dprg.org)
+- [KiCad EDA](https://www.kicad.org)
+- FreeRouting and other resources are downloadable links provided during the DPRG meeting accessible via DPRG archives or by direct request to session leaders.
 
-## Acknowledgements
-Special thanks to Paul Bouchier for leading the session and providing detailed insights into PCB design using KiCad. Also, thanks to Ray Casler for contributing information and facilitating discussions.
+Each of these resources and initiatives aims to bolster the community's skills, facilitating smoother processes for building and deploying robotics projects.
