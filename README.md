@@ -1,2 +1,0 @@
-# rbnvdemo
-RBNV Agent demo
