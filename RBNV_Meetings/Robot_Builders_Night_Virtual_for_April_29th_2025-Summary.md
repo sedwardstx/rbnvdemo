@@ -1,10 +1,5 @@
 # Robot Builders Night Virtual for April 29th, 2025
 
-## Introduction
-The April 29th session of Robot Builders Night Virtual brought together enthusiasts to discuss and demonstrate advancements in robotics through various presentations. Key topics included robot sensors, the utilization of Arduino for robot navigation, and innovative applications of robotics technology in real-world scenarios.
-
-## Main Discussion Points
-
 ### Presentation by Karim Virani
 - **Unilidar 2 Demonstration**: Karim showcased the UniLidar 2 and its 3D scanning capabilities, including how it can be utilized for obstacle detection. Discussions involved its mechanics, configuration applications, and potential uses on larger robotic platforms.
 
@@ -24,17 +19,10 @@ The April 29th session of Robot Builders Night Virtual brought together enthusia
 - **Camera Calibration Issues**: Mike Williamson discussed issues with his OpenMV camera appearing off-center, exploring potential causes such as lens displacement. Community suggestions pointed towards mechanical shifts potentially due to earlier drops or impacts.
 
 ### Paul Bouchier's 6-Can Robot State Machine
-- **State Machine and AIDA**: Demonstrated a robot programmed via AIDA to autonomously capture cans in a predefined space and return them to a goal. The setup utilized advanced state machine configurations for seamless transition between custom code and ROS Navigator.
-
-## Conclusions and Insights
-- Robotic platforms such as Unilidar and Arduino-based setups are making strides in enhancing autonomous capabilities and precision in robotics.
-- Discussions underscored the importance of troubleshooting and mechanical reliability in robot sensors and actuators.
-- Innovative applications of robotics, like firefighting drones, show the transformative potential of technology in addressing real-world problems.
+- **State Machine and AIDA**: Demonstrated a robot programmed via aider to autonomously capture cans in a predefined space and return them to a goal. The setup utilized advanced state machine configurations for seamless transition between custom code and ROS Navigator.
 
 ## Referenced Links and Contributors
 - **Karim Virani**: [Presentation Document](https://docs.google.com/document/d/1OrUC16EO6cEw8qgARbY-RqPRVkrTGPvgdIXMMDJBgMk/edit?usp=drivesdk)
 - **Mark R.**: [F1 Tenth Instructables](https://www.instructables.com/F1Tenth-16299-Project/)
 - **Tom Crawford**: [CBC News on Wildfire Drones](https://www.cbc.ca/news/canada/british-columbia/wildland-firefighting-drones-are-being-tested-in-b-c-1.7520696)
 - **Michael Ivison**: [Waveshare Driver Information](https://www.waveshare.com/general-driver-for-robots.htm)
-
-This session illustrated the collaborative efforts within the robotics community to push forward the boundaries of technology application and problem-solving in the field.
