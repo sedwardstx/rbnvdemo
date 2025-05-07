@@ -1,8 +1,5 @@
 # Robot Builders Night Virtual for May 6th, 2025
 
-## Introduction
-The latest session of Robot Builders Night Virtual (RBNV) brought together enthusiasts and experts to discuss recent advancements, ongoing projects, and shared insights on robotics and AI technology. This meeting included discussions about robot control using Waveshare boards, comparisons of various AI tools and their applications, and highlighted innovative developments in autonomous vehicle technology.
-
 ## Main Discussion Points
 
 ### Robot Building and Control Systems
@@ -31,16 +28,3 @@ A variety of useful resources were shared related to these topics:
   - [Aurora Press Release](https://ir.aurora.tech/news-events/press-releases/detail/119/aurora-begins-commercial-driverless-trucking-in-texas)
   - [Dallas Innovates Article](https://dallasinnovates.com/in-u-s-first-aurora-launches-fully-driverless-trucking-deliveries-between-dallas-and-houston/)
 
-## Conclusions and Insights
-- The ongoing projects within the community reflect the dynamism in using available parts creatively, such as re-purposed Arduino elements and Waveshare’s versatile modules.
-- AI tools continue to grow as critical adjuncts in engineering fields, yet still require user discernment to mitigate biases or information gaps.
-- Autonomous driving technologies are rapidly advancing with successful real-world applications, though regulatory navigation remains a significant hurdle.
-
-## Referenced Links by Contributor
-- **Paul Bouchier**: [YouTube Waymo Accident Avoidance Video](https://www.youtube.com/watch?v=nAuna_qzf6k&t=2s)
-- **Carl Ott**: [Aurora's Press Release and News Article](https://ir.aurora.tech/news-events/press-releases/detail/119/aurora-begins-commercial-driverless-trucking-in-texas), [Waveshare Wiki](https://www.waveshare.com/wiki/Main_Page)
-- **Blue Steel**: [Aurora’s Driverless Trucking Video Announcement](https://youtu.be/TZv1krlPfb4?si=ftKlljdHSXB1_xBD)
-- **Mark R**: [Waveshare Driver Info](https://www.waveshare.com/general-driver-for-robots.htm)
-- **Paul Bouchier**: [Adafruit Product Page](https://www.adafruit.com/product/715)
-
-This engaging session provided an overview of current projects and discussions on impactful technological advancements, setting the stage for further innovation in the robotics community.
