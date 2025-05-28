@@ -1,14 +1,12 @@
 # Robot Builders Night Virtual for May 27th, 2025
 
-## Introduction
-
-The virtual meeting on May 27th, 2025, hosted discussions on various topics including robotics competitions, technical challenges, and upcoming events. Multiple speakers exchanged ideas and insights, exploring the practical aspects of robotics technology and organization dynamics. Additionally, the session involved problem-solving related to competitions and planning for future club engagements.
+## Video at https://youtu.be/3jr84gNdK4A
 
 ## Key Discussion Points
 
 ### DPRG Presentation and Activities
-- Paul Bouchier shared his plans for a presentation to the Homebrew Robotics Group, covering DPRG's activities and his experiences with Ross regarding the DPRG slideset. 
-- The presentation will showcase the Roboama contest and other DPRG contests, highlighting community engagement and technical progress.
+- Paul Bouchier shared his plans for a presentation to the Homebrew Robotics Group, covering DPRG's activities and his experiences with the ROS2 linorobot2 project
+- The presentation will showcase the Roborama contest and other DPRG contests, highlighting community engagement and technical progress.
 
 ### AI and Camera Technology
 - A discussion on camera technology suitable for robotics applications was held. Doug Paradis recommended PixieCam for basic applications, while also highlighting more advanced options like MaixCam and OpenMV.
@@ -26,13 +24,8 @@ The virtual meeting on May 27th, 2025, hosted discussions on various topics incl
 - Doug Paradis discussed ongoing challenges with the DPRG website, outlining issues with WordPress and strategies for resolution, including contemplating changes to the database management and plugins.
   
 ### Future Events and Collaborations
-- An announcement about a visit to Robot Lab headquarters for the next meeting, and coordination with external marks like South Lake tour.
-- There was a mention of a prospective work day to prepare robots for an outreach event scheduled for Moonday in July.
-
-## Conclusions and Insights
-- The conversation reflects a collaborative effort in optimizing DPRG's organizational and competitive frameworks, encouraging fair play while enhancing technical engagement.
-- The technological pointers shared will aid members in tackling hardware challenges and improve robotics implementations.
-- Upcoming events and initiatives underscore DPRG's ongoing commitment to community involvement and educational outreach.
+- An announcement about a visit to RobotLab headquarters for the next meeting, and coordination for a RobotLAB HQ South Lake tour.
+- There was a mention of a prospective work day to prepare Robie for an outreach event scheduled for Moonday in July.
 
 ## Referenced Links
 - [RobotLab Dallas](https://www.robotlab.com/dallas) - Provided by Ponder SomeMore
