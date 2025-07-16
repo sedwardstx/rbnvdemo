@@ -1,7 +1,6 @@
 # Robot Builders Night Virtual for July 8th, 2025
 
-## Introduction
-The Robot Builders Night Virtual meeting held on July 8, 2025, focused on sharing updates on various robotics projects, discussions about technical challenges, and showcasing advancements in AI and control systems. The session welcomed multiple presenters who shared their work and sought advice on overcoming specific technical hurdles.
+## Video at https://youtu.be/WJPYMwe4sDs
 
 ## Meeting Discussions
 
@@ -28,11 +27,6 @@ The Robot Builders Night Virtual meeting held on July 8, 2025, focused on sharin
 - **Tom Crawford** updated the group on his development of a camera system using high-definition power over Ethernet (PoE) cameras and Zone Minder software.
 - His focus was on leveraging AI for motion detection, object recognition, and energy-efficient server setups for home surveillance.
 
-## Conclusions and Insights
-- Members shared insights into solving technical challenges and optimizing robotics projects with a focus on effective coding practices and hardware choices.
-- The integration of AI in robotics and related applications was discussed as a growing field of interest.
-- Continued experimentation with home security systems and robotics is encouraged to leverage new technologies and methods.
-
 ## Referenced Links
 - **Mike Williamson** provided insights into angle sensors and motor controllers:
   - [Rotary Encoder Product](https://www.amazon.com/gp/product/B0B5XRRFNN) - Intended for precision RPM measurement.
@@ -42,5 +36,3 @@ The Robot Builders Night Virtual meeting held on July 8, 2025, focused on sharin
 - **Carl Ott** discussed energy implications of using AI models:
   - [ChatGPT Environmental Impact](https://chatgpt.com/share/6860a558-8a20-800e-aead-23f6ca70712e)
 
-## Final Remarks
-The meeting concluded with reminders of upcoming events, including a coordination for "Moonday" and common updates. Participants engaged and contributed to a comprehensive knowledge exchange on robotics and AI applications.
