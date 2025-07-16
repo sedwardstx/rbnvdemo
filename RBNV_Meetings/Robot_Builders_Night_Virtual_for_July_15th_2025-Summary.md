@@ -1,14 +1,9 @@
 # Robot Builders Night Virtual for July 15th, 2025
 
-## Introduction
-The July 15th, 2025 meeting of Robot Builders Night Virtual brought together enthusiasts and experts discussing a range of topics from home security systems to legendary contributions to video game graphics. The meeting also explored issues with AI personalization settings and featured insights into AI orchestration tools.
-
-## Main Discussion Points
+## Video at https://youtu.be/eqd-wbpNjys 
 
 ### Home Security Systems
-- **Tom Crawford** shared his ongoing project of replacing an older outdoor security camera system with new high-definition power over Ethernet cameras. 
-- Cameras feature embedded Linux computers and capabilities such as human recognition.
-- **Issues with Ubuntu**: Tom detailed his experiences with upgrading his server systems, sharing challenges with different Ubuntu versions and their compatibility with specific hardware configurations.
+- **Tom Crawford** shared his ongoing project of replacing an older outdoor security camera system with new high-definition power over Ethernet cameras. Cameras feature embedded Linux computers and capabilities such as human recognition.
 
 ### Invention of Sprite Graphics
 - **Harold Pulcher** highlighted Dave Ackley’s historical contribution to video game graphics by coining the term “sprite” during his work on the 9918 graphics processor for Mattel. 
@@ -26,9 +21,6 @@ The July 15th, 2025 meeting of Robot Builders Night Virtual brought together ent
 ### AI Orchestration Tools
 - **Langchain and Langraph** were discussed as tools to orchestrate multiple AI models collaboratively. 
 - These tools enable the breakdown of tasks to specialized AI agents, improving speed and efficiency in processing complex queries.
-
-## Conclusion
-The meeting was a fruitful exchange of ideas, tackling both nostalgic and futuristic topics. Participants benefited from exchange on technical challenges and solutions across AI, robotics, and system configurations. The night underscored the brilliance yet complexity involved in integrating AI within technology systems today.
 
 ## Referenced Links
 - **Pat Caron** shared:
