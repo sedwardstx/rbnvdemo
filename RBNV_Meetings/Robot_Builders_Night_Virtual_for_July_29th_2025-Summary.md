@@ -1,9 +1,6 @@
 # Robot Builders Night Virtual for July 29th, 2025
 
-## Introduction
-The Robot Builders Night Virtual meeting covered a variety of topics from battery management in RC models, and development of gate openers, to showcasing innovative balancing robots. Insights were shared on electronics procurement experiences and unique applications of sonar technology in fishing.
-
-## Main Discussion Points
+## Video at https://youtu.be/BitWFVTjBQs
 
 ### Battery Management in RC Models
 - **Mike Williamson** discussed efforts to calibrate speed measurements on a 1/6 scale robot platform using a brushless motor and battery management techniques. 
@@ -32,15 +29,9 @@ The Robot Builders Night Virtual meeting covered a variety of topics from batter
 - **Carl Ott** proposed organizing a club outing to tour the Amazon warehouse in Grapevine, TX.
   - Participants expressed interest in experiencing the logistics and automation technology employed in such facilities.
 
-## Conclusions
-- Continued exploration and troubleshooting are critical for successful robotics and electronics projects.
-- Sharing experiences and solutions fosters community learning and innovation.
-- Participation in tech tours, like the proposed Amazon warehouse visit, could offer valuable insights into large-scale automation.
-
 ## Referenced Links
 - **Carl Ott** provided a link to [NavBot-EN01](https://navbot.com/en/product/navbot-en01/).
 - **Ponder SomeMore** shared links to YouTube videos and the [NASA JPL Open Source Rover GitHub page](https://github.com/nasa-jpl/open-source-rover).
 - **Harold Pulcher** shared links related to an MP3 player and Bluetooth speaker projects.
 - **ed mart** provided a social media link related to the Amazon tour.
 
-This meeting highlighted the intersection of robotics, electronics technology, and hands-on experimentation, emphasizing the importance of community knowledge-sharing for advancing personal and group projects.
