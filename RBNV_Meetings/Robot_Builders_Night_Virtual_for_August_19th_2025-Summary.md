@@ -1,9 +1,6 @@
 # Robot Builders Night Virtual for August 19th, 2025
 
-## Introduction
-During this session of the Dallas Personal Robotics Group's virtual meeting, participants discussed various robotics topics ranging from technical troubleshooting to upcoming events. The conversation was lively and informed, showcasing the ongoing projects and collective insights into modern robotics challenges.
-
-## Main Discussion Points
+## Video at https://youtu.be/WfQlXiQ9LWo
 
 ### Enhanced Cone Detection Techniques
 - **Mike Williamson** shared his progress on improving the cone detection software using an Oak-D camera. The software, known as "Cone Slayer AI," required filtering adjustments to reduce noise and inaccuracies, such as detecting orange objects as cones. He implemented noise reduction techniques and visualized the data using RViz.
@@ -31,4 +28,3 @@ During this session of the Dallas Personal Robotics Group's virtual meeting, par
 - **Doug P.**: Insights into blob detection and adaptive filtering.
 - **David Ackley**: Personal project on a robot dog kit.
 
-These discussions underline the Dallas Personal Robotics Group’s commitment to collectively advancing knowledge through shared projects and experiences, paving the way for future robotic innovations.
