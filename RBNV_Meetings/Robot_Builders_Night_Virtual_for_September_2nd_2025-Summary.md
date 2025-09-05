@@ -1,9 +1,4 @@
-# Robot Builders Night Virtual for September 2nd, 2025
-
-## Introduction
-The virtual meetup focused primarily on updates and discussions of robotics projects, particularly those related to obstacle avoidance and sensor technologies in autonomous robots.
-
-## Main Discussion Points
+## Video at https://youtu.be/x_21AaGlrHk
 
 ### Mike Williamson's Robot Update
 - **Obstacle Avoidance:** Mike has been improving his robot's ability to traverse indoor environments using multi-point time-of-flight (TOF) sensors arranged in an 8x8 array. These help the robot avoid obstacles like walls and better approach targets like cones.
@@ -22,16 +17,3 @@ The virtual meetup focused primarily on updates and discussions of robotics proj
 ### Innovative Concepts
 - **Automated Trash Bins:** A humorous project involving robots as moving trash bins with smart detection systems sparked discussions on practical applications and the over-engineering of simple tasks.
 
-## Conclusions and Insights
-- The continuous development of more sophisticated sensor arrays is crucial for improving obstacle navigation. Collaborative advice and troubleshooting are integral to solving persistent issues like sensor noise and false positives.
-- Strategic use of GPS and RTK systems can greatly impact the outcomes in competitive robotics, with ongoing discourse beneficial for refining both robot capabilities and competition rules.
-- There's a community interest in potentially merging robotics with creative problem-solving to showcase skills, even in whimsical applications like moving trash cans. However, the practicality and cost of such projects remain topics of reflection.
-
-## Referenced Links by Contributor
-- **Mike Williamson:**
-  - Shared insights into TOF sensors, specifically tagging models VL53L8CX and VL53L5CX for their applications and differences in light tolerance.
-  
-- **Doug P.:**
-  - Introduced the DF Robot RTK GPS Kit, highlighting its potential for direct application in competition settings where exact positioning is key.
-
-The meeting conveyed both technical advancements and a community spirit in overcoming challenges together, showcasing the iterative nature of robot development.
