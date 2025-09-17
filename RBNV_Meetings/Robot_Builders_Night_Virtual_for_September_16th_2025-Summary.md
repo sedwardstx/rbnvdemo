@@ -1,9 +1,6 @@
 # Robot Builders Night Virtual for September 16th, 2025
 
-## Introduction
-The meeting included discussions on various robotics projects, challenges in robot navigation, the use of simulation tools, and shared resources for building and programming robots. Attendees also explored technical issues encountered during robot operations and novel solutions for improving these systems.
-
-## Meeting Highlights
+## Video at https://youtu.be/-i8gqXXJMCE
 
 ### Robot Navigation and Issues
 - **Mike Williamson** discussed challenges faced with ROS 2 Navigator, particularly its issue with sending multiple and conflicting commands when near obstacles. Mike explained a temporary fix of waiting two seconds to allow commands to settle before switching navigation modes.
@@ -12,18 +9,12 @@ The meeting included discussions on various robotics projects, challenges in rob
 ### In-Home Robot Testing
 - **Douglas Paradis** shared insights from setting up an RTK (Real-Time Kinematic) system for navigation in his home. Despite environmental challenges, he achieved fixed solutions with the RTK.
 
-### Simulation and Modeling
+### Makerspet Ros2 robot for $150
 - **Paul Bouchier** introduced a newly acquired robot capable of running ROS 2 on an ESP32 and demonstrated its assembly and initial setup.
-- **Carl Ott** introduced the MuJoCo Simulation, a physics engine used for modeling and simulating robotic dynamics.
+- The "makers pet" robot aligns with the Linorobot software stack. The ease of setup and configuration makes it suitable for beginners.
 
-### New Technologies and Resources
-- **Paul Bouchier** showcased a "makers pet" robot, which is ROS 2 compatible and aligns with the Leno robot software stack. The ease of setup and configuration makes it suitable for beginners.
+### Other topics
 - **John K** mentioned a new open-source robot design, Mevita, aimed at being cost-effective and accessible for robot builders. 
-
-## Conclusions and Insights
-- Navigation challenges in cluttered environments remain a key issue, with potential solutions focusing on better control algorithms and enhanced sensory input.
-- Use of RTK technology for precise localization shows promising results even in constrained environments but requires more robust setup for outdoor applications.
-- The introduction of affordable, accessible robotic kits aids in lowering barriers to entry for new robotics enthusiasts, fostering learning and development.
 
 ## Referenced Links
 - **Ponder SomeMore**
@@ -35,4 +26,3 @@ The meeting included discussions on various robotics projects, challenges in rob
   - [Google DeepMind's MuJoCo on GitHub](https://github.com/google-deepmind/mujoco)
   - [MuJoCo Official Site](https://mujoco.org/)
 
-This session provided valuable exchanges on innovative robotics technologies and practical problem-solving strategies for current robotics challenges. Participants were encouraged to further explore shared resources and discussed technologies to enhance their own projects.
