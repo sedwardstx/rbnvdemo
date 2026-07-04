@@ -1,36 +1,34 @@
 # Robot Builders Night Virtual for June 30th, 2026
 
-## Introduction
-The virtual meeting of robot builders on June 30th, 2026, brought together enthusiasts discussing various robotic components and projects. Key areas included motor and encoder systems, innovative use of lidar, and contributions to the open-source hardware community.
+## [RBNV 2026 June 30/2026 - YouTube](https://www.youtube.com/watch?v=JfNQdcF-r4E)
 
-## Main Discussion Points
+**Club Business** - Mark R. reminded the group about the upcoming work day and the "Moon Day" event. The next monthly meeting will feature a swap meet, show-and-tell, and pizza.
 
-### Teleoperation of Robotic Mowers
-- **Ray's Project**: Black star recognition was given to Ray for teleoperating his Husqvarna mower using Sensori motors and wheels driven by an ESP32. This showcases an innovative application of robotics in lawn maintenance.
+## Presenters
 
-### Lidar Mounting Techniques
-- **Mike's Setup**: A unique lidar setup was discussed where the lidar is intentionally mounted backward to avoid having a seam directly in front of the robot. This approach can provide a more consistent data feed without interruptions.
+**Ray c** - shared an update on his autonomous mower project utilizing an ESP32 and Husqvarna motors. The remote-control mode is functioning well, but the autonomous mode is currently being debugged. 
+     
+**Mike W** - discussed refurbishing his Jeep-style outdoor robot. He is remounting the electronics inside the cabin, upgrading the DC power subsystem, and planning transmission repairs.  He also demonstrated LiDAR visualization in Rviz. The group discussed how mounting the RP LiDAR "backwards" (with the seam facing the back) helps prevent image distortion and scan discontinuities when the robot rotates. 
+  
+**Paul B** - shared progress on the Moberry project and presented a custom surge suppression circuit he designed to prevent high-voltage arcing when plugging in batteries.  He successfully mounted an LC29H RTK GPS module on a Raspberry Pi, sharing how he configured the boot file to allow for serial data access.
 
-### Live-Streamed Robotic Maintenance
-- **Paul's Contribution**: Ed Mart awarded Paul a gold star for successfully live-streaming a mower's disassembly and subsequent reassembly, providing educational value and transparency in robotic maintenance processes.
+**Karim V** - explained his use of a "ground grid" package for outdoor ground modeling, which helps identify ground planes and detect obstacles like drop-offs. 
 
-### Encoder and Motor Resources
-- **Doug Paradis's Links**: Doug shared resources for motor encoders, contributing to a discussion on sourcing quality components for robots.
-  - [Amazon Encoder](https://www.amazon.com/dp/B0B14TSHR8?th=1)
-  - [Chancs Motor Encoder](https://chancsmotor.com/product/775-motor-16ppr-encoder/)
-
-### 3D Printing for Robotics
-- **VoxelPLA Resource**: Mark Dombrowski shared a link to VoxelPLA, a resource for 3D printing materials, which is crucial for prototyping and creating custom parts in robotics.
+**Doug P** - demonstrated 3D-printed encoder caps and the group evaluated motor mounting compatibility with GoBuilda structural components.  Doug P. and Mark D. recommended ASA and ABS over PLA or PETG for 3D printing outdoor robot parts, noting their superior heat resistance in hot climates. 
 
 ## Conclusions and Insights
+
 - The meeting emphasized collaboration and the sharing of resources and techniques to enhance individual projects.
 - Innovative techniques like backward lidar mounting and teleoperation with ESP32 were highlighted.
 - The live-streaming of maintenance procedures offers a model for transparency and education in the robotics community.
 
 ## Referenced Links
+
 - **Doug Paradis**:
+  
   - [Amazon Encoder](https://www.amazon.com/dp/B0B14TSHR8?th=1)
   - [Chancs Motor Encoder](https://chancsmotor.com/product/775-motor-16ppr-encoder/)
 
 - **Mark Dombrowski**:
+  
   - [VoxelPLA](https://voxelpla.com/)
