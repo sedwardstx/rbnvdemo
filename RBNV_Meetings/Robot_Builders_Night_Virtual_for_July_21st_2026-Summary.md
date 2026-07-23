@@ -1,38 +1,54 @@
 # Robot Builders Night Virtual for July 21st, 2026
 
-## Introduction
-This meeting brought together robotics enthusiasts to discuss various components, projects, and research related to robotics systems, with a particular focus on motor specifications, historical radio controls, and lidar scanning technology.
+## [RBNV 2026 July 21/2026 - YouTube](https://www.youtube.com/watch?v=6MD7bJ1mUH4)
 
-## Key Discussion Points
 
-### NEMA Stepper Motors
-- **Discussion**: Mark Dombrowski introduced a NEMA 11 bipolar stepper motor, highlighting its specifications such as 12Ncm torque and 6.2V voltage.
-- **Associated Link**: The motor details were shared with a [link](https://www.omc-stepperonline.com/nema-11-bipolar-1-8deg-12ncm-17oz-in-0-67a-6-2v-28x28x51mm-4-wires-11hs20-0674s) by Mark Dombrowski.
 
-### Robie Project
-- **Conversation**: The Robie project was discussed, with mentions of motor specs and additional documentation being available in the Discord chat for further reference.
-- **Tidbit**: A humorous note was shared about a personal robot, Robie, being "in love with the paper shredder."
+### DPRG News
 
-### Lidar Scanner Exploration
-- **Insight**: Pat Caron shared insights on lidar scanning technology, particularly noting contributions by Ed M.
+- **RoboColumbus 2026** - Is only about 4 months until the event.  Are you ready?
 
-### Polyacetylene Materials
-- **Sharing**: An article discussing polyacetylene materials was introduced by Mark R, offering an interesting perspective on its applications in robotics.
+- **Moon Day 2026** - Paul B gave a Moon Day event update.  DPRG shared a presentation area with Iron Reign FTC 6832 team and Lovejoy HS’s VEX robotics teams 1082B and M at the Frontiers of Flight Museum near Love Field in Dallas.  
+  
+  
 
-### Historical Radio Controls
-- **Presentation**: Carl Ott contributed extensively about historical radio controls, particularly from the 1970s era.
-- **Resources**: Discussions included research on the G55 and G45 Space Commander models.
-- **Referenced Links**:
-  - Research on the G55 Space Commander was shared with [this link](https://chatgpt.com/share/6a602ad3-ab48-83ea-a1d7-c7ca72243d45).
-  - A comprehensive site listing RC radios from the 1970s was shared with [this link](https://www.vrhc.co.uk/index.php/en/radio-1970-s?utm_source=chatgpt.com).
-  - For more details on the G45 Space Commander, another [link](https://www.vrhc.co.uk/images/Heli_Gear/Radio%20gear/1970s/1973-06%20-%20G45%20space%20commander%20review.pdf) was provided.
+**Paul B** - He gave an update on Mowberry.  He had the robot move following waypoints then returning.  Gold star ⭐
 
-## Conclusions and Insights
-- The exploration of stepper motors like the NEMA 11 offers valuable specifications for small scale robotics projects.
-- Continued collaboration via shared documents on platforms like Discord enhances collective learning and project development.
-- Historical insights into radio control systems reveal the evolution of robotics control technologies.
+- He showed the head panning back & forth.  To get the panning wotking, they added a ramp speed function on the stepper motor.  He added a Raspberry Pi in the belly to connected a head mounted camera.  This worked to sometimes detect faces & wave it's arm at people.  He also showed it homing the head to the end stops.  Gold star ⭐
+- Provided a Show N Tell on Robie's head and torso controllers.  He showed how the arm is controlled using a Capstand drive.  
+  
+  
+
+**Tom C** - Gave an update on his RC trasmitter modification. He showed the display providing feedback. He discovered that the enclosure is conductive! This drastically affected the circuit components.
+
+- Talked about one of the robots he came across in his feeds. It was a Centaur robot with a humanoid torso and a 4 legged bottom.  
+  
+  
+
+**Mike W** - Gave a update on his outdoor robot chassis.
+
+
+
+**Ray C** - talked about the Joysticks he used on his rc controller.  He also talked about Modulino an I2C extender.  
+
+
+
+**Mark R** - Gave a live demonstration showcasing a 3D point cloud generation using on his DFRobot 64x8 TOF Lidar sensor.
+
+
+
+**Carl O** - Provided an a reference chat on Tom's RC controller.  
+
+
+
+**Harold P** - Ordered 2 Balance Bot kits from Digikey.  He's trying to get a robot to balance as well as Boston Dynamics 2 wheel balancing robot.  
+
+
+
+**Paul B** - Gave a reminder about the upcoming Saturday show-and-tell and swap meet session.
 
 ## Referenced Links
+
 - **Mark Dombrowski (madone)**:
   - [NEMA 11 Stepper Motor Details](https://www.omc-stepperonline.com/nema-11-bipolar-1-8deg-12ncm-17oz-in-0-67a-6-2v-28x28x51mm-4-wires-11hs20-0674s)
 - **Carl Ott**:
