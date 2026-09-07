@@ -1,0 +1,13 @@
+# Robot Builders Night Virtual for Sept 1st, 2026
+
+## [RBNV 2026 Sept 1/2026 - YouTube](https://www.youtube.com/watch?v=Su4M6mzAQB0)
+
+## Key Discussion Points
+
+**Custom PCB Prototyping** A custom Hackerbot-inspired **PCB** was designed and fabricated using **KiCad**. The prototype includes a microcontroller hat header and jumpers to toggle control between the original circuit and the hat. A button pinout routing error was solved by mounting the switch on the board's underside, which actually improved accessibility.
+
+- **4WD Robotic Platform & Strategy** Development continues on an **ESP32-powered, four-wheel-drive platform** using hoverboard motors. To conserve microcontroller pins, a **PCA9685 16-channel servo board** was integrated via I2C alongside a **TF Mini Plus** scanning sensor. For the upcoming competition, rules clarify that robots can only **control one canister at a time**. The group is exploring a canister-moving strategy using a **high-pressure air tank** to deliver a 1-second, 100 PSI air blast.
+- **Surge Protection & Infrastructure** To safeguard workshop equipment, a high-capacity power bar with **2,700 joules of energy absorption** was installed. For Ethernet lines, **single-line surge suppressors** were added to the indoor side of four outdoor camera runs. Disassembly confirmed they contain **gas discharge tubes** and **pulse transformers**, ensuring complete PoE compatibility.
+- **Appliance Reliability & DIY Repairs** Embedded appliance control boards often fail when high-current relays desolder due to **inadequate copper thickness** on cost-reduced layouts. Since safety certifications don't guarantee reliability, the group highlighted diagnosing and soldering these joints ourselves using online guides rather than buying expensive replacement boards.
+- **Bipedal Robotics & Market Trends** The \$399, 25cm-tall bipedal robot is now available for pre-order. It features **15 motors, dual IMUs, LIDAR, a camera, and an open-source SDK** powered by an RK3566 processor with an AI accelerator. Its retail price is incredibly close to its bill-of-materials cost, reflecting a trend where full-scale humanoids are dropping toward $4,000.
+- **AI-Powered PCB Design Tools** An **AI-driven PCB design tool** was discussed that generates layouts directly from text, bypassing manual schematic drawing. While promising, **prompt engineering** remains a major barrier to precise results, and a credit card is currently required even for a free trial.
