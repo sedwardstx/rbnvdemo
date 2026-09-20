@@ -1,19 +1,12 @@
 # Robot Builders Night Virtual for September 15th, 2026
 
-## Introduction
+## https://www.youtube.com/watch?v=AxC2UL1Z3UI
 
-The meeting chat included a brief exchange about flowcharts and a shared technical resource on PID speed control for DC motors.
+## Presenters
 
-## Main Discussion Points
+**Flowcharts and Early Development Practices** -  The comments highlighted how system design and process documentation were handled before modern digital diagramming tools became common.
 
-### Flowcharts and Early Development Practices
-
-- Jim F. jokingly asked about flowcharts before recalling his use of manually drawn flowcharts in the late 1970s and early 1980s.
-- The comments highlighted how system design and process documentation were handled before modern digital diagramming tools became common.
-
-### DC Motor PID Speed Control
-
-- Tom Crawford shared a CurioRes video demonstrating PID-based speed control for a DC motor.
+**DC Motor PID Speed Control** - Tom C shared a CurioRes video demonstrating PID-based speed control for a DC motor.
 - The resource is relevant to robot builders working on closed-loop motor control, speed regulation, and PID tuning.
 
 ## Conclusions and Insights
