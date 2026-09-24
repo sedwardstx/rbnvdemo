@@ -1,26 +1,17 @@
 # Robot Builders Night Virtual for September 22nd, 2026
 
-## Introduction
+###https://www.youtube.com/watch?v=U4oecp49t5s
 
-This Robot Builders Night Virtual meeting included shared resources on converting images into 3D data with ROS 2, a short nature video, and the growing “second brain” knowledge-management trend.
+## Presenters
 
-## Main Discussion Points
+**Mike W** - updated us on his outdoor robot.  He has places all thr robotics inside the cab.  He his having a problem with overheating after a few hours!   He added a 40mm fan which seemed to resolve his problem.  He has been trying to reduce the CPU load.  He used AI to optimize his python code.  He had the AI switch his code to C++ and his CPU usage dropped dramatically! 
 
-### Image-to-3D Processing with ROS 2
+**Karim V** -  shared the [`image_to_3d`](https://github.com/slgrobotics/image_to_3d/) GitHub repository.
+- The repository leverages **Depth Anything** and packages its capabilities for use with **ROS 2**.  This resource may be useful for robotics projects requiring monocular depth estimation or the conversion of conventional imagery into spatial data.
+  - He also noted that the concept of a **second brain** is currently a significant trend.  A related YouTube video was shared, likely as supporting material for exploring personal knowledge management and external systems for organizing information.
 
-- Ponder SomeMore shared the [`image_to_3d`](https://github.com/slgrobotics/image_to_3d/) GitHub repository.
-- The repository leverages **Depth Anything** and packages its capabilities for use with **ROS 2**.
-- This resource may be useful for robotics projects requiring monocular depth estimation or the conversion of conventional imagery into spatial data.
-
-### Nature Video
-
-- Harold Pulcher shared a four-minute video described as featuring “natural wonder greatness.”
+**Harold P** - shared a four-minute video described as featuring “natural wonder greatness.”
 - The link was offered as an interesting visual interlude during the meeting.
-
-### “Second Brain” Trend
-
-- Ponder SomeMore noted that the concept of a **second brain** is currently a significant trend.
-- A related YouTube video was shared, likely as supporting material for exploring personal knowledge management and external systems for organizing information.
 
 # Conclusions and Insights
 
@@ -31,11 +22,7 @@ This Robot Builders Night Virtual meeting included shared resources on convertin
 
 ## Referenced Links
 
-### Ponder SomeMore
-
 - [SLG Robotics—image_to_3d](https://github.com/slgrobotics/image_to_3d/) — A repository that leverages Depth Anything and packages it for ROS 2.
 - [YouTube video related to the “second brain” discussion](https://www.youtube.com/watch?v=mjQlZrteMIY) — Shared shortly after discussing the growing second-brain trend.
-
-### Harold Pulcher
 
 - [Four Minutes of “Natural Wonder Greatness”](https://youtu.be/F5FEj9U-CJM) — A short nature-focused YouTube video.
