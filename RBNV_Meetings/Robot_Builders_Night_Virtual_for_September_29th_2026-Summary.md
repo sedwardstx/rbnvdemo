@@ -1,63 +1,29 @@
 # Robot Builders Night Virtual for September 29th, 2026
 
-## Introduction
+## [RBNV Sept 29/2026 Video](https://www.youtube.com/watch?v=x4h9januTSc)
 
-The meeting focused on debugging orientation calculations from a BNO sensor, particularly converting quaternion data into yaw values in Python and C++. Participants also briefly discussed hardware purchasing and spare-board planning before Scott Horton shared a robotics-oriented dart-gun project repository.
+### DPRG Club Business
 
-## BNO Sensor Yaw and Quaternion Calculations
+- **RoboColumbus 2026** - Less than 2 months until the event.  Are you ready?  The annual competition date is set for Saturday, November 21st, moving one week earlier to avoid interference with Thanksgiving travel plans. Spectators are welcome to attend even if they do not have a robot entered in the contest.
 
-- Mark R shared a Python function for reading yaw from a BNO sensor and provided part of the quaternion conversion formula:
-  ```python
-  siny_cosp = 2.0 * (quat_real * quat_k + quat_i * quat_j)
-  ```
-- Mike Williamson shared the corresponding C++ yaw calculation:
-  ```cpp
-  double yaw = std::atan2(
-      2.0 * (real * k + i * j),
-      1.0 - 2.0 * (j * j + k * k)
-  );
-  ```
-- Mark R noted that Mike’s C++ implementation was very similar to his Python version.
-- Mark Dombrowski supplied an alternative quaternion-to-angle expression:
-  ```cpp
-  var yaw = atan2(
-      2.0 * (q.y * q.z + q.w * q.x),
-      q.w * q.w - q.x * q.x - q.y * q.y + q.z * q.z
-  );
-  ```
-- The differing formulas appear to reflect quaternion component conventions, axis selection, or rotation-order assumptions. These details should be verified against the sensor library’s definitions.
-- D Steele relayed an analysis from Claude and identified a likely bug: one line was converting an angle to degrees twice.
-- Mike also highlighted Python’s convenient debug-printing syntax:
-  ```python
-  print(f"{var1=} {var2=}")
-  ```
-  This can make it easier to inspect intermediate quaternion and angle values.
+### Presenters
 
-## Hardware Purchasing and Spare Planning
+**Mike W** - showed a live demo of his outdoor Jeep robot finding and touching the cone. 
+He showed the demonstrations using ROS and Foxglove. Gold star ⭐ (Autonomous running)
 
-- Ed Mart asked Tom how many “CYD” boards he purchased.
-- The group also raised the practical question of how many spare units should be kept on hand to provide confidence during development.
-- No final quantity or purchasing recommendation was captured in the supplied conversation.
+- He also reviewed his problems encountered with last year's RoboColumbus attempt. 
+       
 
-## Dart-Gun Robotics Project
+**Pat C** - reviewed his compass/bno085 code causing very high yaw reading. The group worked through coding challenges involving compass and IMU sensor alignment in 6-DOF mode, troubleshooting floating-point modulo operations, correcting quaternion-to-yaw conversion formulas, and adjusting Python print formatting.
 
-- Scott Horton shared the [`dart_gun`](https://github.com/rshorton/dart_gun) GitHub repository near the end of the meeting.
-- The repository was presented as a relevant project resource, although no detailed technical discussion about its design or operation was included in the available chat.
 
-# Conclusions and Insights
 
-- Most of the technical discussion centered on validating quaternion-to-yaw conversion code across Python and C++.
-- The implementations are structurally similar, but developers should confirm:
-  - Quaternion component ordering and naming
-  - Which axis is being treated as yaw
-  - Rotation conventions and coordinate systems
-  - Whether the result is in radians or degrees
-- The suspected double conversion to degrees is an important debugging finding and may explain incorrect angle output.
-- Printing named intermediate values can help compare implementations and isolate mathematical or unit-conversion errors.
-- Hardware projects should account for spare controllers or boards, though the group did not establish a specific recommended quantity.
+**Tom C** - discussed setting up touchscreen on a Cheap Yellow Displays (CYDs), navigating PlatformIO firmware compatibility constraints with Espressif core versions, and utilizing multi-core ESP32-S3 microcontrollers for internet audio streaming.
 
-## Referenced Links by Contributor
 
-### Scott Horton
 
-- [rshorton/dart_gun](https://github.com/rshorton/dart_gun) — GitHub repository for the dart-gun project shared during the meeting.
+**D. Steele** - showcased progress on a modular agricultural rover designed for field inspection designed with AI & CAD Automation. The workflow demonstrated using LLMs via Model Context Protocol (MCP) to automate SolidWorks part generation and simulate multi-degree-of-freedom suspension over rough terrain.
+AI Prompting Strategies & Workflows: The meeting wrapped up with a discussion on developer workflows, managing the mental load of switching between multiple 3D software interfaces, and using targeted LLM prompting techniques (such as requesting step-by-step instructions) when exploring complex technical subjects.
+  
+
+**Scott H** - shared a github repo of his latest project.  [rshorton/dart_gun](https://github.com/rshorton/dart_gun)
