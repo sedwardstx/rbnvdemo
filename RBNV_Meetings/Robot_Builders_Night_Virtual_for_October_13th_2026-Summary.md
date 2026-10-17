@@ -1,45 +1,45 @@
-# Robot Builders Night Virtual for October 13th, 2026
+# DPRG RBNV Notes
 
-## Introduction
+[RBNV Video Oct 13/2026](https://www.youtube.com/watch?v=Ly-COOGjMpI)
 
-The meeting covered mobile robot design choices, Raspberry Pi Pico hardware compatibility, distance-sensing technology, and possible robotics demonstrations. Participants also briefly mentioned ROS and discussed whether a time-of-flight sensor would operate reliably in bright outdoor conditions.
+## DPRG Club Business
 
-## Main Discussion Points
+- **RoboColumbus 2026** - There is about 5 weeks until the event. Are you ready? The annual competition date is set for Saturday, November 21st, moving one week earlier to avoid interference with Thanksgiving travel plans. Spectators are welcome to attend even if they do not have a robot entered in the contest. Reach out to Paul B or Mark R for event location details.
 
-### Mobile Robot Configuration
 
-- Jim F asked whether the robot under discussion used a **two-wheel or four-wheel configuration**.
-- The available chat does not record a definitive answer, but the question suggests the group was comparing drivetrain or chassis options.
 
-### Raspberry Pi Pico Hardware
+- **DPRG Power Lunch** - Paul B gave a overview of the Lunch at Ford's Garage on Sunday Oct 11th.
 
-- Participants discussed whether the project used an **RP2350- or RP2040-based Pico board**.
-- Tom Crawford cautioned that aftermarket Pico-compatible boards do not always use the same pinout.
-- He noted having encountered at least three slightly different layouts, highlighting the need to verify pin assignments before connecting peripherals or substituting boards.
 
-### MaixSense A010 Distance Sensor
 
-- Ponder SomeMore identified the device being discussed as the **Sipeed MaixSense A010** and shared its documentation.
-- Pat Caron confirmed owning the same sensor.
-- Ponder asked whether the sensor works reliably in **summer sunlight**, raising an important concern about outdoor performance. Bright sunlight can affect some optical and time-of-flight sensing systems.
-- No conclusive answer about sunlight performance appears in the provided chat.
+- **DPRG Oct Monthly Mtg** - Saturday Oct 24th - Paul B will present "Learn TO Program a Robot with AI". Participants will get on hand experience on programming a Arduino robot using the Arduino IDE. The theory section is available to all. The hands on session will be available for 10 participants. Please bring your own laptop.
 
-### Project Demonstrations
 
-- Jim F asked whether Michael would demonstrate his **crane project**.
-- A later celebratory “Gold Star” message suggests a successful moment or positive recognition during the meeting, although the chat alone does not provide enough context to connect it to a specific demonstration.
 
-### ROS
+- **Coming Events** - Paul B will send a list of coming events.
+  
+  - We should do a better job of getting events out early enough.
 
-- Near the end of the meeting, Ray asked about **“ROS 3.0.”**
-- The chat does not include enough follow-up context to determine whether this referred to a future ROS release, a project version, or a joking reference.
 
-## Conclusions and Insights
 
-- Builders should confirm the exact **pinout and processor model** when using third-party Pico-compatible boards; physical similarity does not guarantee electrical compatibility.
-- The MaixSense A010 was recognized by multiple attendees, but its reliability in strong outdoor sunlight remains an open question requiring documentation review or practical testing.
-- Drivetrain configuration and the choice between RP2040 and RP2350 hardware were relevant project-design questions, though final selections were not captured in the chat.
-- A crane demonstration and ROS-related discussion were proposed or mentioned, but the available messages do not preserve their outcomes.
+## Presenters
+
+- **Ray C** - he showed a MaixSense A010 depth camera connected to an esp32c3 in serial mode. He is determining the furthest distance to steer the robot through an openning. He will use this on his RoboColumbus outdoor robot.
+
+
+
+- **Michael I **- showed his Halloween Grapple Crane that gives out candy & toys EVERY TIME!  Gold star ⭐ (Autonomous running)
+
+
+
+- **Pat C** - reviewed his pyZMQ Background Monitor. This was created entierly using Github Copilot. This is used to test sensor values and data being sent to other python scripts.
+
+
+
+- **Tom C** - discussed using KiCAD and a text description of his circuit and have AI design the circuit board. Apparently it work quite well for final project design!
+  - He also discussed how user used a TOF sensor
+
+
 
 ## Referenced Links by Contributor
 
