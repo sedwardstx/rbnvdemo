@@ -1,42 +1,42 @@
 # Robot Builders Night Virtual for October 20th, 2026
 
-## Introduction
+## [RBNV Video Oct 20/2026](https://www.youtube.com/watch?v=NzOUsmbcBs0)
 
-The chat for this Robot Builders Night included references to robot visualization software, an upcoming Dallas Personal Robotics Group meeting about AI-assisted robot programming, a Pico AI Bot flyer, Michael’s video, and Harold Pulcher’s creative work and Twitch channel.
+## DPRG Club Business
 
-## Main Discussion Points
+- RoboColumbus 2026 - There is about 4 weeks until the event. Are you ready? The annual competition date is set for Saturday, November 21st, moving one week earlier to avoid interference with Thanksgiving travel plans. Spectators are welcome to attend even if they do not have a robot entered in the contest. Reach out to Paul B or Mark R for event location details.
 
-### Robot Visualization
+- DPRG Oct Monthly Mtg - Saturday Oct 24th - Paul B will present "Learn TO Program a Robot with AI". Participants will get on hand experience on programming a Arduino robot using the Arduino IDE. The theory section is available to all. The hands on session will be available for 10 participants. Please bring your own laptop.
 
-- Paul Bouchier mentioned **Vizanti**, a browser-based visualization and control interface commonly used with ROS.
-- No additional technical details or links were included in the chat.
 
-### Upcoming DPRG Meeting: Programming a Robot Using AI
 
-- Mark R shared information about the **October 24, 2026 DPRG monthly meeting**, titled *Learning to Program a Robot Using AI*.
-- Mark later noted that he was leaving the call and expected to see participants on Saturday, apparently referring to this upcoming event.
+### Presenters
 
-### Pico AI Bot
+- **Mike W** - took his robot outside for testing. His gps was giving him nany problems, so he turned it off! He showed a plot of the robot on Foxglove. He had 20 satellites connected but the uncertanty around the gps is HUGE! The gps_nav signal appears to be working well, but the Kalman filtered_gps value is way off! He also showed a new web page he created to start/stop his ros robot.  **Black star** ★ (Significant progress)
 
-- Paul Bouchier shared a flyer for the **Pico AI Bot**.
-- The chat did not include further details about the robot or its planned demonstration.
 
-### Michael’s Video
 
-- Mark R provided a YouTube link and identified it as **Michael’s video**.
-- No further description of the video’s subject was included in the available chat.
+- **Paul B** - Saturday he will present "Learn TO Program a Robot with AI". He has provided full details in the flyer at: https://tinyurl.com/PicoAiBotFlyer including required preparation - read carefully. He reviewed the schematic and showed the "Interposer Board". He showed the process to get it working and demonstrated the robot running! Paul also mentioned that you are not limited to use Gemini or the Arduino IDE. You may change IDE's, AI programs or controllers if you wish, but help may not be available when things go wrong!  **Gold star**⭐ (Autonomous running) for Mark & Paul
 
-### Harold Pulcher’s Presentation and Projects
 
-- Pat Caron praised Harold’s contribution, commenting, “Great stuff Harold!”
-- Paul Bouchier shared eBay listings for Harold’s pens, noting that they support **breast cancer awareness**.
-- Harold also provided his Twitch channel, where participants can follow his content.
 
-## Conclusions and Insights
+- **Michael I** - played a video of his claw machine that he showed last week. Thsi time he had the audio working!
 
-- The meeting connected participants with several robotics learning resources and community activities, particularly the upcoming DPRG session on using AI to program robots.
-- Shared resources covered robot visualization, Pico-based AI robotics, a community video, and Harold Pulcher’s creative and streaming projects.
-- The available record consists primarily of brief chat messages, so detailed technical discussion from the voice portion could not be captured.
+
+
+- **Harold P** - discussed his post on Discord about some Pens he turned on his lathe. He is auctioning them off for Breast Cancer Month. Check out his post & ebay listings. He also showed some promotional materials he is giving away for his 5 Year Twitch Channel anniversary.
+
+
+
+- **Kyle W** - discussed using Claude AI to design 3D printed brackets for parts such as a Buck Converter. He will present it next week.
+
+
+
+- **Karim V** - discussed using Claude Code to design parts for his Students robot designs. It produces design requirements for further design in Fusion 360 as a Python script. He showed the designs and CAD files that it produced.
+
+
+
+- **Scott H** - showed his Outdoor robot built on a Power Wheels Jeep Chassis. He is trying to get the code back up and running. It's been about 3 years since it ran. He discussed the controller stack mounted on the back rack of the Jeep.
 
 ## Referenced Links by Contributor
 
