@@ -1,51 +1,36 @@
 # Robot Builders Night Virtual for October 27th, 2026
 
-## Introduction
+## [RBNV Video Oct 27/2026](https://www.youtube.com/watch?v=jz65OHZ-IAs&pp=0gcJCSsMAYcqIYzv)
 
-The meeting chat highlighted autonomous robotics, robotics events, embedded controller hardware, terminal-based user interfaces, and commercial robot applications. Participants also exchanged project resources and helped identify hardware shown during the call.
+**DPRG Club Business**
 
-## Main Discussion Points
+- RoboColumbus 2026 - There is about 4 weeks until the event. Are you ready? The annual competition date is set for Saturday, November 21st, moving one week earlier to avoid interference with Thanksgiving travel plans. Spectators are welcome to attend even if they do not have a robot entered in the contest. Reach out to Paul B or Mark R for event location details.
 
-### Autonomous Robotics
+- DPRG Oct Monthly Mtg - Saturday Oct 24th - Paul B will present "Learn TO Program a Robot with AI". Participants got on hand experience on programming a Arduino robot using the Arduino IDE. There was some impressive AI skills used!
 
-- Pat Caron congratulated Paul on successfully running a project autonomously, describing it as worthy of a “gold star.”
-- Ray added a humorous comment about AI being “born to be wild.”
-- The available chat does not include enough technical detail to identify Paul’s platform or autonomous navigation approach.
 
-### RoboCon
 
-- For Act shared the [RoboCon website](https://www.robocon.io/) to confirm whether it was the robotics conference being discussed.
-- RoboCon appears to have been mentioned as a potentially relevant event for the group.
+**Presenters**
 
-### Maker Pi RP2040 Robot Controller
+- **Paul B** - gave an overview about last Saturdays meeting. He provided details about how some people created the robot dance routine. Some people used music videos to help the AI create the dance moves. Paul provided a recreation of how the robot worked with the music. He showed the AI prompt and looked through the created file.  Gold star ⭐ (Autonomous running)
 
-- Ed Mart suggested that Pat’s demonstrated board looked like a Cytron Maker Pi RP2040.
-- Pat later confirmed that it was indeed a Cytron Maker Pi RP2040 board.
-- This board provides an RP2040-based platform intended for robotics and electronics projects.
 
-### MicroDuck Robot
 
-- Pat Caron relayed a Facebook link from Ed Mart featuring the MicroDuck Robot.
-- The shared clip appears to have supplemented the meeting’s discussion or demonstrations of compact robots.
+- **Harold P** - discussed the work flow used on Saturdays AI programming event. HE would like to use it on the next Moon Day. He would like to use AI to capture spectators words and use some robot constraints to program a robot and have it run. Paul B also discussed the option of using a Maker's Pet esp32 robot for this event.
 
-### Terminal.Gui
 
-- Harold Pulcher shared the GitHub repository for Terminal.Gui, a cross-platform toolkit for creating terminal-based user interfaces with .NET.
-- Gary T followed with the Terminal.Gui showcase, providing examples of interfaces and applications built with the toolkit.
-- These resources may be useful for building text-based robot-control panels, diagnostics, configuration tools, or monitoring applications.
 
-### Robots in Food Service
+- **Mike W** - played a few ros Bag files from his Outdoor Robot running a 5m x 5m square.
+- He noticed that his Kalman Filter output was 0 all the time. He was trying to use it for sensor data, but it wouldn't cooperate.  Gold star ⭐ (Autonomous running) (a Bag file is still an autonomous run!)
 
-- Ray commented that a robot pizzeria in Italy produced good pizza based on personal experience.
-- This provided a real-world example of robotics being used in food preparation and service.
 
-# Conclusions and Insights
 
-- The meeting featured a successful autonomous robot demonstration, although its technical details were not captured in the chat.
-- Participants collaboratively identified Pat’s controller as the Cytron Maker Pi RP2040.
-- Terminal.Gui was highlighted as a possible software resource for terminal-based control and monitoring interfaces.
-- Shared examples such as the MicroDuck Robot and an Italian robot pizzeria illustrated robotics at both hobbyist and commercial scales.
-- RoboCon was identified as a robotics event that may be relevant to attendees.
+- **Tom C** - showed his AI prompt for Gemini to and that it recommended test software! He ran the program on his robot and it ran forward & forward again. He then asked Gemini to correct it so it ran forward and backward. He then proceeded to ask Gemini to create a Dance routine.
+- played a video of his robot run on Saturday.  Gold star ⭐(Autonomous running)
+
+
+
+- **Pat C** - played a video of his robot run on Saturday. He discussed the process he used using VSCode & Github Copilot.  Gold star ⭐ (Autonomous running)
 
 ## Referenced Links by Contributor
 
@@ -64,3 +49,4 @@ The meeting chat highlighted autonomous robotics, robotics events, embedded cont
 ### Ed Mart, relayed by Pat Caron
 
 - [MicroDuck Robot video](https://www.facebook.com/reel/1123024793448557) — Facebook Reel featuring the MicroDuck Robot.
+- [Robot Pizza](https://www.facebook.com/share/v/1MbrAd17g9/)
