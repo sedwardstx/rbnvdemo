@@ -1,31 +1,23 @@
 # Robot Builders Night Virtual for November 17th, 2026
 
-## Introduction
+## [RBNV Video Nov 17/2026](https://www.youtube.com/watch?v=_OzVLXev0rg)
 
-The supplied meeting chat focused primarily on resolving an audio feedback issue. Mike Williamson also shared a GitHub repository related to robotics development.
+### DPRG Club Business
 
-## Main Discussion Points
+- RoboColumbus 2026 - Is happening on Saturday! Are you ready? Spectators are welcome to attend even if they do not have a robot entered in the contest. Reach out to Paul B or Mark R for event location details.
 
-### Audio Troubleshooting
+### Presenters
 
-- Paul Bouchier muted Rud Merriam because Rud’s speakers were not being properly echo-cancelled and were interfering with the meeting audio.
-- Rud switched from external speakers to the webcam microphone setup to address the issue.
-- Paul clarified that Rud would need to unmute himself whenever he wanted to speak because other participants could not unmute him remotely.
-- Pat Caron thanked the participants for handling the audio problem.
+- **Scott G** - working on his outdoor robot to integrate lidar and path planning.
 
-### Robotics Workspace Repository
+- He showed an overview of his robot. He showed a video of how obstacle avoidance is working so far. He discussed his obstacle avoidance behavior. Gold star ⭐ (Autonomous running)
 
-- Mike Williamson shared the `rc_ws` GitHub repository.
-- No additional explanation of the repository or its role was included in the supplied chat.
+- **Mike I** - asked about the Sensori Robotics motors that were given away last year. He wanted to know how they were working.
 
-## Conclusions and Insights
+- **Mike W** - showed an overview of his RobotColumbus robot Jeep. He described how he incorporated an Encoder onto the drive shaft. He get about 1 encoder tick per 0.5mm of travel. He showed a Foxglove file including a live video of the run.
 
-- The audio interference was addressed by muting the affected microphone and changing Rud’s audio configuration.
-- Participants were reminded that a muted attendee must unmute themselves before speaking.
-- Mike’s repository was the only technical resource shared in the available chat.
+- He showed his waypoint file. He also shared his repo for the ros code. Gold star ⭐
 
-## Referenced Links by Contributor
+- **Paul B** - showed his Linorobot running in his office. He's using ros2 & nav2 to control his robot. He's having problems with Transforms as the robot Lidar does not follow the map. The group helped to try to troubleshoot why this is happening. They gave him a few ideas on where things may be going wrong. Gold star ⭐ (Autonomous running)
 
-### Mike Williamson
-
-- [rc_ws GitHub repository](https://github.com/mikew123/rc_ws) — Robotics workspace repository shared during the call.
+- **Rud** - showed his Sphero RVR+ robot. It has several TOF sensors and a Oak D Lite camera and a Raspberry PI 4b. It uses 2 batteries one for the Sphero and one for the Pi. The Pi has an AP for connecting to. It publishes a Web Page for robot control. He showed the robot running autonomously with manual speed input. It's currently using Behavior trees to control it. He showed it Wall Following. Gold star ⭐ (Autonomous running)
